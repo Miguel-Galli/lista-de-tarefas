@@ -63,6 +63,7 @@ class MainActivity : AppCompatActivity() {
         alertBuilder.setPositiveButton("Sim") { _, _ ->
             val taskDAO = TaskDAO(this)
             if (taskDAO.delete(id)) {
+                updateTasks()
                 Toast.makeText(this, "Sucesso ao remover tarefa", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "Erro ao remover tarefa", Toast.LENGTH_SHORT).show()
