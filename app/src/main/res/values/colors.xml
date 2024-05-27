@@ -5,11 +5,11 @@
 
     <!--Cores do projeto-->
 
-    <color name="primaria">#FF5617</color>
-    <color name="primaria_variacao">#E34D0B</color>
+    <color name="primaria">#1723FF</color>
+    <color name="primaria_variacao">#0B41E3</color>
 
-    <color name="secundaria">#FF6F3A</color>
-    <color name="secundaria_variacao">#FF8051</color>
+    <color name="secundaria">#F83A89FF</color>
+    <color name="secundaria_variacao">#51AEFF</color>
 
     <color name="fundo">#EFEFEF</color>
 
